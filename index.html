@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Home div-->
+    <div id="home">
+        <h1>Student registration system</h1>
+        <!-- list add and display div -->
+        <div id="add_display">
+            <!-- add -->
+             <div id="add">
+                <div id="user_input">
+                    <h2>Student Details</h2>
+                    <h5>Student Name : </h5>
+                    <input type="text" name="" id="name" placeholder="Enter name :">
+                    <h5>Student Class : </h5>
+                    <input type="text" name="" id="class" placeholder="Enter class :">
+                    <h5>Student Age : </h5>
+                    <input type="number" name="" id="age" placeholder="Enter Age">
+                    <h5>Student Roll-no : </h5>
+                    <input type="number" name="" id="roll" placeholder="Enter roll no :">
+                    <input type="button" value="ADD" id="btn">
+                </div>
+             </div>
+             <!-- display -->
+              <div id="display">
+                <div id="student_list">
+                    <div id="show_msg">
+                        <h1>Successfully Added</h1>
+                    </div>
+                <li id="head">
+                    <p>Name</p>
+                    <p>Class</p>
+                    <p>Age</p>
+                    <p>Roll-no</p>
+                    <button>Action</button>
+                </li>
+                <!-- <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>class</th>
+                        <th>sec</th>
+                        <th>roll</th>
+                    </tr>
+                </table> -->
+                   <!-- <ul id="head_list">
+                    <li>Name</li>
+                    <li>Class</li>
+                    <li>Age</li>
+                    <li>Roll-no</li>
+                    <button type="action">Action</button>
+                   </ul>
+                   <ul id="stu_list">
+                    <li>Name</li>
+                    <li>Class</li>
+                    <li>Age</li>
+                    <li>Roll-no</li>
+                    <button type="Edit_button">Edit</button>
+                    <button type="Remove_button">Remove</button>
+                   </ul> -->
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
